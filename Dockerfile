@@ -26,6 +26,7 @@ COPY srcs/setup_wp.sh .
 COPY srcs/setup_php_my_admin.sh .
 COPY srcs/start_services.sh .
 COPY /srcs/config.inc.php .
+COPY /srcs/autoindex_onoff.sh .
 
 
 RUN ["/bin/bash", "setup_sql.sh"]
