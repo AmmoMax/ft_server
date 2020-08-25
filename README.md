@@ -22,7 +22,7 @@ ft_server project for School 21
 Так же создается база данных с которой работает Wordpress и phpMyAdmin.
 
 Сборка образа:
-```docker built -t ft_server .```
+```docker build -t ft_server .```
 
 Запуск контейнера:
 ```docker run -d -p 80:80 -p 443:443 --name ft_server ft_server```
